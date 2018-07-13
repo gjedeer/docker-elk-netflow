@@ -5,3 +5,5 @@ elk:
     - "9200:9200"
     - "5044:5044"
     - "9995:9995/udp"
+  environment:
+    - KIBANA_CONNECT_RETRY=120
